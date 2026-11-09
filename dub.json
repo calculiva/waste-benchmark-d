@@ -1,0 +1,20 @@
+{
+	"name": "calculiva-waste-benchmark",
+	"description": "Read-only lookup of the Calculiva plank waste study v1.0.0 summary (42 rows: plank format, offset, offcut reuse, kerf; waste statistics and how often flat 5/8/10/15 % allowances fall short). Data CC BY 4.0, doi:10.7910/DVN/8VL3MW. Computes nothing.",
+	"homepage": "https://calculiva.com/data-sources/#waste-study",
+	"license": "MIT",
+	"authors": ["Calculiva"],
+	"copyright": "Copyright (c) 2026 Calculiva",
+	"targetType": "library",
+	"configurations": [
+		{
+			"name": "library"
+		},
+		{
+			"name": "unittest",
+			"sourcePaths": ["source", "tests"],
+			"importPaths": ["source", "tests"],
+			"stringImportPaths": ["tests"]
+		}
+	]
+}
